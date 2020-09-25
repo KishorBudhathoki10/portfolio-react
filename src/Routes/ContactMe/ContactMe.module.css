@@ -1,6 +1,6 @@
 .ContactMe {
   background-color: #16181d;
-  height: 100vh;
+  min-height: 100vh;
   /* color: white; */
   color: #c5124c;
   position: relative;
@@ -45,9 +45,8 @@
   font-size: 1rem;
   padding: 0.3rem;
   border: none;
-  border: none;
   letter-spacing: 1px;
-  line-height: 1.6rem;
+  /* line-height: 1rem; */
 }
 
 .sendButton input {
@@ -72,6 +71,11 @@
 input:focus,
 textarea {
   outline: none;
+}
+
+textarea:focus {
+  outline: none;
+  width: 100%;
 }
 
 .backdrop {

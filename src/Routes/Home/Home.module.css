@@ -2,14 +2,14 @@
   overflow: hidden;
   position: relative;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .FloatingName {
   position: absolute;
   z-index: 10;
   width: 100%;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -82,5 +82,29 @@
 
   .links > a {
     margin: 1rem;
+  }
+}
+
+@media (max-height: 640px) {
+  .FloatingName {
+    top: 50%;
+  }
+
+  .imageContainer {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .FloatingName {
+    padding: 0rem;
+  }
+
+  .FloatingName__title {
+    font-size: 0.4rem;
+  }
+
+  .links {
+    margin-top: 0.5rem;
+    font-size: 0.5rem;
   }
 }

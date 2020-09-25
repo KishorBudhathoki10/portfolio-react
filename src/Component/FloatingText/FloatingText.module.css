@@ -44,3 +44,19 @@
     padding: 1rem;
   }
 }
+
+@media (max-height: 640px) {
+  .FloatingName {
+    font-weight: 600;
+    font-size: 0.7rem;
+  }
+
+  .FloatingName__section {
+    margin: 0.5rem;
+  }
+
+  .spaceDiv,
+  .scriptBfBox {
+    padding: 0.5rem;
+  }
+}
