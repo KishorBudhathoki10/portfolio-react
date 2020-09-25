@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import classes from "./ProjectCard.module.css";
-import Backdrop from "../../Backdrop/Backdrop";
+import Backdrop from "../../../Component/Backdrop/Backdrop";
 
 const ProjectCard = ({ imageUrl, title, siteUrl, githubUrl }) => {
   const [showBackdrop, setShowBackdrop] = useState(false);

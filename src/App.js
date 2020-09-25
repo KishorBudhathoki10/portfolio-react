@@ -1,12 +1,11 @@
 import React, { useEffect, useRef } from "react";
-// import ScrollSnap from "scroll-snap";
 import { animateScroll as scroll } from "react-scroll";
 
-import ChangingDiv from "./Component/ChangingDiv/ChangingDiv";
+import Home from "./Routes/Home/Home";
 import WaterName from "./Component/WateryName/WateryName";
 import AboutMe from "./Routes/AboutMe/AboutMe";
 import NavBar from "./Component/NavBar/NavBar";
-import Projects from "./Component/Projects/Projects";
+import Projects from "./Routes/Projects/Projects";
 import ContactMe from "./Routes/ContactMe/ContactMe";
 import classes from "./App.module.css";
 
@@ -15,17 +14,6 @@ const App = () => {
 
   useEffect(() => {
     const clientHeight = window.innerHeight;
-
-    // const bindScrollSnap = () => {
-    //   const element = container.current;
-    //   const snapElement = new ScrollSnap(element, {
-    //     snapDestinationY: "100%",
-    //   });
-
-    //   snapElement.bind();
-    // };
-
-    // bindScrollSnap();
 
     setTimeout(() => {
       if (window.scrollY < clientHeight) {
@@ -42,7 +30,7 @@ const App = () => {
         <WaterName />
 
         <div className={classes.section} id="Home">
-          <ChangingDiv />
+          <Home />
         </div>
 
         <div className={classes.fillerPink}></div>

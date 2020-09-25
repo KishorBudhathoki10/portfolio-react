@@ -1,9 +1,7 @@
 import React from "react";
 import { useSpring, animated } from "react-spring";
-import { Link } from "react-scroll";
 
 import classes from "./ChangingDiv.module.css";
-import FloatingName from "../FloatingText/FloatingText";
 
 function ChangingDiv() {
   const props = useSpring({
@@ -39,53 +37,7 @@ function ChangingDiv() {
     },
   });
   return (
-    <div className={classes.ChangingDiv}>
-      <div className={classes.FloatingName}>
-        <div className={classes.imageContainer}>
-          <div
-            className={classes.image}
-            style={{ backgroundImage: `url("./images/profile/Kishor.jpg")` }}
-          ></div>
-        </div>
-        <div className={classes.FloatingName__title}>
-          <h1>I am a</h1>
-        </div>
-        <FloatingName />
-
-        <div className={classes.links}>
-          <Link
-            activeClass={classes.active}
-            to="projects"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            PROJECTS
-          </Link>
-          <span> / </span>
-          <Link
-            activeClass={classes.active}
-            to="about"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            ABOUT
-          </Link>
-          <span> / </span>
-          <Link
-            activeClass={classes.active}
-            to="contact"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            CONTACT
-          </Link>
-        </div>
-      </div>
-      <animated.div className={classes.scriptBox} style={props}></animated.div>
-    </div>
+    <animated.div className={classes.scriptBox} style={props}></animated.div>
   );
 }
 
