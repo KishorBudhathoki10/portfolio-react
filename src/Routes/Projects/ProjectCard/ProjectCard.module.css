@@ -59,6 +59,10 @@
   color: #16181d;
 }
 
+.learnMore a:last-child {
+  display: none;
+}
+
 .main__project_title {
   text-align: center;
   color: #fce1e3;
@@ -83,6 +87,10 @@
 
   .main__project_title {
     font-size: 1rem;
+  }
+
+  .learnMore a:last-child {
+    display: block;
   }
 }
 
