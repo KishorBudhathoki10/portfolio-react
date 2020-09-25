@@ -1,0 +1,46 @@
+.FloatingName {
+  font-size: 1rem;
+  /* font-family: fantasy; */
+  color: white;
+  width: 100%;
+}
+
+.FloatingName__section {
+  display: inline-block;
+  margin: 0.6rem;
+}
+
+.spaceDiv,
+.scriptBfBox {
+  margin: 0.1rem;
+  padding: 0.5rem;
+  display: inline-block;
+}
+
+.scriptBfBox {
+  will-change: transform;
+  box-shadow: 3px 3px 100px black;
+  background-color: black;
+  border-radius: 40%;
+}
+
+.scriptBfBox:hover {
+  color: white;
+  background-color: #c5124c;
+}
+
+@media (min-width: 640px) {
+  .FloatingName {
+    font-weight: 600;
+    font-size: 1.4rem;
+  }
+
+  .FloatingName__section {
+    margin: 0.6rem;
+  }
+
+  .spaceDiv,
+  .scriptBfBox {
+    padding: 1rem;
+  }
+}

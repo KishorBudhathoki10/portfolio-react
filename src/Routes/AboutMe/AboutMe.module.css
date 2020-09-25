@@ -1,0 +1,104 @@
+.AboutMe {
+  width: 100%;
+  margin: -6px auto 0 auto;
+  background-color: #c5124c;
+  color: white;
+}
+
+.header {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.header h2 {
+  font-size: 2rem;
+}
+
+.main {
+  width: 100%;
+  text-align: center;
+  max-width: 1000px;
+  padding-top: 5rem;
+  margin: 0 auto;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+.imageContainer {
+  width: 190px;
+  border-radius: 50%;
+  border: 5px solid white;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.image {
+  width: 180px;
+  height: 180px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 190%;
+  border-radius: 50%;
+  /* border: 4px solid #c5124c; */
+}
+
+.overview {
+  min-width: 280px;
+  max-width: 800px;
+  width: 70%;
+  vertical-align: middle;
+  text-align: left;
+  display: inline-block;
+  padding: 1rem;
+  letter-spacing: 1px;
+  line-height: 1.6rem;
+}
+
+.overview h3 {
+  font-size: 1rem;
+}
+
+.overview p {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.competencies {
+  background-color: #b6083f;
+  padding: 2rem;
+  margin: 2rem;
+  text-align: left;
+  border-radius: 2px;
+}
+
+.competencies h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.competencies__group {
+  margin: 1rem auto;
+}
+
+.competencies__group h5 {
+  margin-bottom: 0.2rem;
+  font-size: 0.8rem;
+}
+
+.competencies__group p {
+  font-size: 0.9rem;
+}
+
+@media (min-width: 640px) {
+  .header h2 {
+    font-size: 3rem;
+  }
+
+  .imageContainer {
+    margin-right: 1rem;
+    margin-bottom: 0;
+  }
+}

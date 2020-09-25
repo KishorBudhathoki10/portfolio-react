@@ -1,0 +1,104 @@
+.main__project {
+  background-color: #c5124c;
+  width: 300px;
+  height: 220px;
+  display: inline-block;
+  margin: 2rem;
+  padding: 1.5rem;
+  overflow: hidden;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+
+.image {
+  width: 100%;
+  height: 130px;
+  transition: 0.5s;
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.main__project:hover {
+  padding: 0;
+}
+
+.main__project:hover .image {
+  background-size: 140%;
+  background-position: top;
+  height: 220px;
+}
+
+.learnMore {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.learnMore a {
+  letter-spacing: 1px;
+  border: 1px solid #c5124c;
+  padding: 0.8rem 2rem;
+  font-size: 0.7rem;
+  background-color: rgba(29, 23, 23, 0.7);
+  margin: 1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+}
+
+.learnMore a:hover,
+.learnMore a:active {
+  background-color: white;
+  border-color: white;
+  color: #16181d;
+}
+
+.main__project_title {
+  text-align: center;
+  color: #fce1e3;
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  letter-spacing: 2px;
+}
+
+@media (min-width: 640px) {
+  .main__project {
+    height: 270px;
+    width: 400px;
+  }
+
+  .image {
+    height: 170px;
+  }
+
+  .main__project:hover .image {
+    height: 270px;
+  }
+
+  .main__project_title {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .main__project {
+    height: 350px;
+    width: 500px;
+
+    margin: 2rem 4rem;
+  }
+
+  .image {
+    height: 250px;
+  }
+
+  .main__project:hover .image {
+    height: 350px;
+  }
+}

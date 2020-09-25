@@ -1,26 +1,68 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useRef } from "react";
+// import ScrollSnap from "scroll-snap";
+import { animateScroll as scroll } from "react-scroll";
 
-function App() {
+import ChangingDiv from "./Component/ChangingDiv/ChangingDiv";
+import WaterName from "./Component/WateryName/WateryName";
+import AboutMe from "./Routes/AboutMe/AboutMe";
+import NavBar from "./Component/NavBar/NavBar";
+import Projects from "./Component/Projects/Projects";
+import ContactMe from "./Routes/ContactMe/ContactMe";
+import classes from "./App.module.css";
+
+const App = () => {
+  const container = useRef();
+
+  useEffect(() => {
+    const clientHeight = window.innerHeight;
+
+    // const bindScrollSnap = () => {
+    //   const element = container.current;
+    //   const snapElement = new ScrollSnap(element, {
+    //     snapDestinationY: "100%",
+    //   });
+
+    //   snapElement.bind();
+    // };
+
+    // bindScrollSnap();
+
+    setTimeout(() => {
+      if (window.scrollY < clientHeight) {
+        scroll.scrollTo(clientHeight);
+      }
+    }, 3800);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className={classes.App} ref={container}>
+        <NavBar />
+
+        <WaterName />
+
+        <div className={classes.section} id="Home">
+          <ChangingDiv />
+        </div>
+
+        <div className={classes.fillerPink}></div>
+
+        <div className={classes.section} id="projects">
+          <Projects />
+        </div>
+
+        <div className={classes.section} id="about">
+          <AboutMe />
+        </div>
+
+        <div className={classes.fillerWhite}></div>
+
+        <div className={classes.section} id="contact">
+          <ContactMe />
+        </div>
+      </div>
     </div>
   );
-}
+};
 
 export default App;

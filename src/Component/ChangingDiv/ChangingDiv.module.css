@@ -1,0 +1,91 @@
+.ChangingDiv {
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.scriptBox {
+  will-change: width, height, left, top;
+  position: relative;
+}
+
+.FloatingName {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 1rem;
+}
+
+.FloatingName__title {
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  font-size: 0.5rem;
+}
+
+.links {
+  color: #f31a5f;
+  font-weight: 600;
+  margin-top: 2rem;
+  letter-spacing: 1px;
+  font-size: 0.5rem;
+}
+
+.links > a {
+  display: inline-block;
+  margin: 0.6rem;
+  cursor: pointer;
+}
+
+.links > a:hover {
+  color: rgb(199, 195, 195);
+}
+
+.imageContainer {
+  width: 150px;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-top: -6rem;
+  margin-bottom: 2rem;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 180%;
+  border-radius: 50%;
+}
+
+@media (min-width: 640px) {
+  .imageContainer {
+    margin-top: -12rem;
+    margin-bottom: 5rem;
+  }
+
+  .FloatingName__title {
+    font-size: 0.6rem;
+  }
+
+  .links {
+    margin-top: 4rem;
+    font-size: 0.8rem;
+  }
+
+  .links > a {
+    margin: 1rem;
+  }
+}

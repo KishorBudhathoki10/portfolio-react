@@ -1,0 +1,15 @@
+.WateryName {
+  background-color: #16181d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  cursor: pointer;
+}
+
+.WateryName > svg {
+  width: 900px;
+  padding: 2rem;
+  /* border: 4px solid #f76090; */
+}

@@ -1,0 +1,131 @@
+.ContactMe {
+  background-color: #16181d;
+  height: 100vh;
+  /* color: white; */
+  color: #c5124c;
+  position: relative;
+}
+
+.header {
+  text-align: center;
+  padding-top: 6rem;
+}
+
+.header h2 {
+  font-size: 2rem;
+}
+
+.container {
+  padding: 1rem;
+  margin: auto;
+}
+
+.formControl {
+  margin-bottom: 1rem;
+}
+
+.formControl label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.formControl input {
+  display: block;
+  width: 100%;
+  padding: 0.3rem;
+  font-size: 1rem;
+  border: none;
+  letter-spacing: 1px;
+}
+
+.formControl textarea {
+  width: 100%;
+  resize: vertical;
+  font-size: 1rem;
+  padding: 0.3rem;
+  border: none;
+  border: none;
+  letter-spacing: 1px;
+  line-height: 1.6rem;
+}
+
+.sendButton input {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: #c5124c;
+  margin-top: 1rem;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.sendButton input:hover,
+.sendButton input:active {
+  background-color: #9e0837;
+}
+
+input:focus,
+textarea {
+  outline: none;
+}
+
+.backdrop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  bottom: 0;
+  z-index: 999;
+}
+
+.thanksGiving {
+  background-color: #c5124c;
+  height: 70%;
+  width: 100%;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thanksGiving h3 {
+  display: block;
+  padding: 2rem;
+  font-size: 1.6rem;
+}
+
+@media (min-width: 640px) {
+  .header h2 {
+    font-size: 3rem;
+  }
+
+  .container {
+    width: 70%;
+    margin-top: 3rem;
+    max-width: 900px;
+  }
+
+  .formControl input {
+    padding: 0.6rem;
+  }
+
+  .formControl textarea {
+    padding: 0.6rem;
+  }
+
+  .thanksGiving {
+    height: 80%;
+    width: 80%;
+    max-width: 1000px;
+    max-height: 700px;
+  }
+}
