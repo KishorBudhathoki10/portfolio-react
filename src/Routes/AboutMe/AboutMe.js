@@ -27,7 +27,7 @@ function AboutMe() {
                 My name is Kishor. I am currently living in Barcelona. Having
                 over 3 years of coding experience, I have dedicated my time on
                 gaining proficiency on all the different areas of web
-                development in order to better my self as a Web Developer and
+                development in order to better my self as a developer and
                 problem solver. Having said that, I am very comfortable using
                 both frontend and backend technologies.
               </p>

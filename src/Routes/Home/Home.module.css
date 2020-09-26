@@ -85,7 +85,7 @@
   }
 }
 
-@media (max-height: 640px) {
+@media (max-height: 400px) {
   .FloatingName {
     top: 50%;
   }

@@ -1,4 +1,4 @@
 .scriptBox {
   will-change: width, height, left, top;
-  position: relative;
+  position: absolute;
 }

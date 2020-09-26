@@ -1,6 +1,6 @@
 import React from "react";
 import { useSpring, animated } from "react-spring";
-// import range from "lodash-es/range";
+
 import classes from "./FloatingText.module.css";
 
 const title = "FULL STACK DEVELOPER";

@@ -1,7 +1,6 @@
 .ContactMe {
   background-color: #16181d;
   min-height: 100vh;
-  /* color: white; */
   color: #c5124c;
   position: relative;
 }
@@ -46,7 +45,6 @@
   padding: 0.3rem;
   border: none;
   letter-spacing: 1px;
-  /* line-height: 1rem; */
 }
 
 .sendButton input {
