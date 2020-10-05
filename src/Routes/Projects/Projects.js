@@ -21,6 +21,13 @@ const Projects = () => {
 
         <div className={classes.main__projects}>
           <ProjectCard
+            imageUrl="./images/projects/simple-shop.png"
+            title="Online Shop"
+            siteUrl="https://simple-portfolio-shop.herokuapp.com/"
+            githubUrl="https://github.com/KishorBudhathoki10/simple-shop"
+          />
+
+          <ProjectCard
             imageUrl="./images/projects/gallery.png"
             title="HELENA'S PHOTO GALLERY"
             siteUrl="https://helenasphotogallery.netlify.app/#/"
@@ -39,13 +46,6 @@ const Projects = () => {
             title="STUDENT PROFILE TRACKER"
             siteUrl="http://studentprofiletracker.herokuapp.com/"
             githubUrl="https://github.com/KishorBudhathoki10/Students-Grade-Tracker-App"
-          />
-
-          <ProjectCard
-            imageUrl="./images/projects/bookViewer.png"
-            title="BOOK VIEWER"
-            siteUrl="http://kishor-book-viewer.herokuapp.com/"
-            githubUrl="https://github.com/KishorBudhathoki10/Book_Viewer_App"
           />
 
           <ProjectCard
