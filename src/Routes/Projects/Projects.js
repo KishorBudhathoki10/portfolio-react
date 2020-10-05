@@ -41,12 +41,12 @@ const Projects = () => {
             githubUrl="https://github.com/KishorBudhathoki10/Gallery-Shop"
           />
 
-          <ProjectCard
+          {/* <ProjectCard
             imageUrl="./images/projects/studentProfileTracker.png"
             title="STUDENT PROFILE TRACKER"
             siteUrl="http://studentprofiletracker.herokuapp.com/"
             githubUrl="https://github.com/KishorBudhathoki10/Students-Grade-Tracker-App"
-          />
+          /> */}
 
           <ProjectCard
             imageUrl="./images/projects/todoList.png"
