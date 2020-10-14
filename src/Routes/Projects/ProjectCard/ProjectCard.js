@@ -3,7 +3,14 @@ import React, { useState } from "react";
 import classes from "./ProjectCard.module.css";
 import Backdrop from "../../../Component/Backdrop/Backdrop";
 
-const ProjectCard = ({ imageUrl, title, siteUrl, githubUrl }) => {
+const ProjectCard = ({
+  imageUrl,
+  title,
+  siteUrl,
+  githubUrl,
+  testingUser,
+  testingPassword,
+}) => {
   const [showBackdrop, setShowBackdrop] = useState(false);
 
   const showBackdropAccordingly = () => {
@@ -18,7 +25,26 @@ const ProjectCard = ({ imageUrl, title, siteUrl, githubUrl }) => {
               VIEW CODE
             </a>
           </div>
+
+          {showTestingAccountAccordingly()}
         </Backdrop>
+      );
+    }
+  };
+
+  const showTestingAccountAccordingly = () => {
+    if (testingUser && testingPassword) {
+      return (
+        <div className={classes.testing}>
+          <p>
+            <span>Email: </span>
+            {testingUser}
+          </p>
+          <p>
+            <span>Password: </span>
+            {testingPassword}
+          </p>
+        </div>
       );
     }
   };

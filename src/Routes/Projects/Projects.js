@@ -25,6 +25,8 @@ const Projects = () => {
             title="Online Shop"
             siteUrl="https://simple-portfolio-shop.herokuapp.com/"
             githubUrl="https://github.com/KishorBudhathoki10/simple-shop"
+            testingUser="test@test.com"
+            testingPassword="12345678"
           />
 
           <ProjectCard
@@ -32,6 +34,8 @@ const Projects = () => {
             title="HELENA'S PHOTO GALLERY"
             siteUrl="https://helenasphotogallery.netlify.app/#/"
             githubUrl="https://github.com/KishorBudhathoki10/Gallery"
+            testingUser="test@test.com"
+            testingPassword="12345678"
           />
 
           <ProjectCard
@@ -39,6 +43,8 @@ const Projects = () => {
             title="HELENA'S GALLERY SHOP"
             siteUrl="https://shophelenasphotogallery.netlify.app/#/"
             githubUrl="https://github.com/KishorBudhathoki10/Gallery-Shop"
+            testingUser="test@test.com"
+            testingPassword="12345678"
           />
 
           <ProjectCard

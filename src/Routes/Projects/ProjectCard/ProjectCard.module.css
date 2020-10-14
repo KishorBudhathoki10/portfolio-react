@@ -37,6 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   color: white;
 }
 
@@ -46,7 +47,7 @@
   padding: 0.8rem 2rem;
   font-size: 0.7rem;
   background-color: rgba(29, 23, 23, 0.7);
-  margin: 1rem;
+  margin: 0 1rem;
   text-decoration: none;
   color: white;
   font-weight: 800;
@@ -61,6 +62,19 @@
 
 .learnMore a:last-child {
   display: none;
+}
+
+.testing {
+  margin-top: -5rem;
+}
+
+.testing {
+  margin-top: -4.5rem;
+  color: white;
+}
+
+.testing span {
+  font-weight: bold;
 }
 
 .main__project_title {
