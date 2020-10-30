@@ -13,7 +13,7 @@ const App = () => {
   const container = useRef();
 
   useEffect(() => {
-    const clientHeight = window.outerHeight;
+    const clientHeight = window.innerHeight;
 
     setTimeout(() => {
       if (window.scrollY < clientHeight) {
