@@ -24,12 +24,13 @@ function AboutMe() {
               {/* My name is Kishor. I am currently living in Barcelona. Having over 3 years of coding experience, I have developed abilities that allows me to work both on frontend and backend technologies. I have dedicated my time on gaining proficiency on all the different areas of web development in order to better my self as a Web Developer and problem solver. */}
 
               <p>
-                My name is Kishor. I am currently living in Barcelona. Having
-                almost 3 years of coding experience, I have dedicated my time to
-                gaining proficiency in all the different areas of web
-                development in order to better myself as a developer and problem
-                solver. Having said that, I am very comfortable using both
-                frontend and backend technologies.
+                My name is Kishor, an experienced Web Developer adept in all
+                stages of web development. Knowledgeable in the user interface,
+                testing, and debugging processes. Equipped with a diverse and
+                promising skill-set. Proficient in an assortment of
+                technologies, including Frontend, Backend, and CS fundamentals.
+                Able to effectively self-manage during independent projects, as
+                well as collaborate in a team setting.
               </p>
             </div>
           </div>
