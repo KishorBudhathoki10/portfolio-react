@@ -3,20 +3,14 @@
   min-height: 100vh;
   color: #c5124c;
   position: relative;
-}
-
-.header {
-  text-align: center;
-  padding-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .header h2 {
   font-size: 2rem;
-}
-
-.container {
-  padding: 1rem;
-  margin: auto;
 }
 
 .formControl {

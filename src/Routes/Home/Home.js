@@ -12,7 +12,7 @@ const Home = () => {
         <div className={classes.imageContainer}>
           <div
             className={classes.image}
-            style={{ backgroundImage: `url("./images/profile/Kishor.jpg")` }}
+            style={{ backgroundImage: `url("./images/profile/Kishor.webp")` }}
           ></div>
         </div>
         <div className={classes.FloatingName__title}>

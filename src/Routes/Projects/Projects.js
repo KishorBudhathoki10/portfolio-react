@@ -21,7 +21,7 @@ const Projects = () => {
 
         <div className={classes.main__projects}>
           <ProjectCard
-            imageUrl="./images/projects/simple-shop.png"
+            imageUrl="./images/projects/simple-shop.webp"
             title="Online Shop"
             siteUrl="https://simple-portfolio-shop.herokuapp.com/"
             githubUrl="https://github.com/KishorBudhathoki10/simple-shop"
@@ -30,7 +30,7 @@ const Projects = () => {
           />
 
           <ProjectCard
-            imageUrl="./images/projects/gallery.png"
+            imageUrl="./images/projects/gallery.webp"
             title="HELENA'S PHOTO GALLERY"
             siteUrl="https://helenasphotogallery.netlify.app/#/"
             githubUrl="https://github.com/KishorBudhathoki10/Gallery"
@@ -39,7 +39,7 @@ const Projects = () => {
           />
 
           <ProjectCard
-            imageUrl="./images/projects/gallery-shop.png"
+            imageUrl="./images/projects/gallery-shop.webp"
             title="HELENA'S GALLERY SHOP"
             siteUrl="https://shophelenasphotogallery.netlify.app/#/"
             githubUrl="https://github.com/KishorBudhathoki10/Gallery-Shop"
@@ -48,14 +48,14 @@ const Projects = () => {
           />
 
           <ProjectCard
-            imageUrl="./images/projects/studentProfileTracker.png"
+            imageUrl="./images/projects/studentProfileTracker.webp"
             title="STUDENT PROFILE TRACKER"
             siteUrl="http://studentprofiletracker.herokuapp.com/"
             githubUrl="https://github.com/KishorBudhathoki10/Students-Grade-Tracker-App"
           />
 
           <ProjectCard
-            imageUrl="./images/projects/todoList.png"
+            imageUrl="./images/projects/todoList.webp"
             title="TODO TRACKER"
             siteUrl="https://kishor-todos-app-with-database.herokuapp.com/lists"
             githubUrl="https://github.com/KishorBudhathoki10/TODO_APP"
