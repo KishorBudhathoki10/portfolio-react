@@ -21,8 +21,15 @@ const Projects = () => {
 
         <div className={classes.main__projects}>
           <ProjectCard
+            imageUrl="./images/projects/elorocafe.webp"
+            title="EL ORO CAFE"
+            siteUrl="https://elorocafe.netlify.app/"
+            githubUrl="https://github.com/KishorBudhathoki10/el-oro-cafe"
+          />
+
+          <ProjectCard
             imageUrl="./images/projects/simple-shop.webp"
-            title="Online Shop"
+            title="Ecommerce Web"
             siteUrl="https://simple-portfolio-shop.herokuapp.com/"
             githubUrl="https://github.com/KishorBudhathoki10/simple-shop"
             testingUser="test@test.com"
@@ -31,7 +38,7 @@ const Projects = () => {
 
           <ProjectCard
             imageUrl="./images/projects/gallery.webp"
-            title="HELENA'S PHOTO GALLERY"
+            title="Photo Gallery"
             siteUrl="https://helenasphotogallery.netlify.app/#/"
             githubUrl="https://github.com/KishorBudhathoki10/Gallery"
             testingUser="test@test.com"
@@ -40,7 +47,7 @@ const Projects = () => {
 
           <ProjectCard
             imageUrl="./images/projects/gallery-shop.webp"
-            title="HELENA'S GALLERY SHOP"
+            title="Photo Gallery SHOP"
             siteUrl="https://shophelenasphotogallery.netlify.app/#/"
             githubUrl="https://github.com/KishorBudhathoki10/Gallery-Shop"
             testingUser="test@test.com"
@@ -48,15 +55,8 @@ const Projects = () => {
           />
 
           <ProjectCard
-            imageUrl="./images/projects/studentProfileTracker.webp"
-            title="STUDENT PROFILE TRACKER"
-            siteUrl="http://studentprofiletracker.herokuapp.com/"
-            githubUrl="https://github.com/KishorBudhathoki10/Students-Grade-Tracker-App"
-          />
-
-          <ProjectCard
             imageUrl="./images/projects/todoList.webp"
-            title="TODO TRACKER"
+            title="Todo App"
             siteUrl="https://kishor-todos-app-with-database.herokuapp.com/lists"
             githubUrl="https://github.com/KishorBudhathoki10/TODO_APP"
           />
